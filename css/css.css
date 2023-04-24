@@ -1,0 +1,100 @@
+#mapid {
+    height: 500px;
+    max-width: 1900px;
+    margin-top: 45px;
+}
+
+.karta {
+    max-width: 250px;
+    margin-bottom: 0px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}            
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+h4 {
+    margin-top: 5px;
+    font-family: 'Merriweather', serif;
+}
+
+#logo {
+    margin-bottom: 25px;
+    margin-right: 15px;
+    
+}
+
+h1 {
+    display: inline;
+    font-size: 50px !important;
+    font-family: 'Merriweather', serif;
+    color: #000 !important;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    color: #000;
+    max-width: 800px;
+    margin-bottom: 50px !important;
+    text-align: justify;
+    line-height: 1.85 !important;
+}
+
+header {
+    margin-top: 25px;
+}
+
+#back {
+    color: #000;
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+}
+
+.galerie {
+    margin-top: 4px;
+}
+
+footer {
+    margin-top: 75px;
+    padding-bottom: 30px;
+}
+
+.logo {
+    max-height: 30px;
+}
+
+.rozcestnik {
+    margin-top: 50px;
+}
+
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 20px !important;
+    }
+
+    #logo {
+        max-height: 35px;
+        margin-bottom: 8px;
+        margin-right: 5px
+    }
+
+    #mapid {
+        margin-top: 70px
+    }
+}

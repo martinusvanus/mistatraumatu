@@ -1,0 +1,207 @@
+<!doctype html>
+
+<html lang="cs">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-J08XMPDV29"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-J08XMPDV29');
+        </script>
+
+        <title>Chorvatská místa traumatu</title>
+
+        <meta name="description" content="">
+        <meta name="author" content="Martin Váňa">
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--Leaflet-->
+        <link rel="stylesheet" href="leaflet/leaflet.css">
+        <script src="leaflet/leaflet.js"></script>
+
+        <!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.17/css/uikit.min.css" />
+
+        <!-- UIkit JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.17/js/uikit.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.17/js/uikit-icons.min.js"></script>
+
+        <link rel="stylesheet" href="css/css.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+
+    </head>
+
+    <body>
+        <div class="uk-container">
+
+            <header>
+                <a href="index.html"><img id="logo" src="images/erb.png"></a>
+                <h1 class="uk-heading-primary">Vukovar</h1>
+                <a href="vukovarENG.html"><span class="uk-align-right" style="padding-top:15px"><u>CZ</u>/ENG</span></a>
+                <a href="index.html"><span uk-icon="icon: triangle-left; ratio: 3" id="back" class="uk-align-right"></span></a>
+            </header>
+
+            <div id="mapid">
+            </div>
+            
+            <h2>Co&nbsp;se&nbsp;na&nbsp;tomto místě stalo?</h2>
+            <p>Vukovar leží na&nbsp;pravém břehu Dunaje přímo na&nbsp;chorvatsko-srbské hranici. Stal se&nbsp;prvním evropským městem od&nbsp;konce druhé světové války, které&nbsp;bylo kompletně zničeno v&nbsp;boji. Došlo k tomu na&nbsp;přelomu léta a&nbsp;podzimu 1991, kdy&nbsp;bylo město téměř tři měsíce obléháno jugoslávskou lidovou armádou a&nbsp;srbskými paramilitárními jednotkami. Město bránila chorvatská národní garda, další chorvatské ozbrojené složky a&nbsp;civilisté. Během bitvy dopadaly na&nbsp;území Vukovaru desítky tisíc raketových střel. Po&nbsp;dobytí města Srbové zmasakrovali stovky vojáků i&nbsp;civilistů a&nbsp;dalších 20 tisíc obyvatel vyhnali. Slobodan Milošević byl&nbsp;později spolu s&nbsp;dalšími vojenskými veliteli  usvědčen z válečných zločinů, které&nbsp;byly spáchány během bitvy o&nbsp;Vukovar i&nbsp;bezprostředně po&nbsp;ní. Kolem dvou set lidí, kteří se&nbsp;ukrývali ve&nbsp;vukovarské nemocnici, zabily srbské jednotky na&nbsp;farmě Ovčara, na&nbsp;padesát dalších zmizelo neznámo kam. Této události se&nbsp;později začalo říkat „vukovarský masakr“. </p>
+
+            <h2>Jak toto místo vypadá dnes?</h2>
+            <p>Převážná část města byla po&nbsp;válce znovu postavena. Bitvu o&nbsp;Vukovar tak&nbsp;na&nbsp;první pohled připomíná jen&nbsp;vodárenská věž, která&nbsp;ční nad&nbsp;Dunajem jako memento bojů i&nbsp;jasná deklarace místní politiky paměti. Padesátimetrová věž je&nbsp;úmyslně ponechána ve&nbsp;stavu z&nbsp;doby obléhání. Má být připomínkou utrpení a&nbsp;bolesti a&nbsp;zároveň symbolem vítězství a&nbsp;nového života. Jako nezáměrné memento minulosti ale působí také polorozpadlé nádraží z&nbsp;dob habsburské monarchie či&nbsp;opuštěná funkcionalistická továrna na&nbsp;boty, kterou zde na&nbsp;předměstí před&nbsp;druhou světovou válkou založil československý koncern Baťa.  
+            <br>Do&nbsp;vypuknutí války byl&nbsp;Vukovar prosperujícím městem v&nbsp;jedné z&nbsp;nejbohatších částí Jugoslávie. Bok po&nbsp;boku zde žilo rozmanité obyvatelstvo, včetně Chorvatů a&nbsp;Srbů. Současná poloha na&nbsp;periferii Chorvatska však umocňuje problémy celé východní části země, především pak nezaměstnanost. Poválečný Vukovar se&nbsp;proto stal místem, v němž mnoho mladých lidí nevidí žádné vyhlídky do&nbsp;budoucna a&nbsp;touží z města odjet. Z&nbsp;Vukovaru je&nbsp;už nevyhání válka či&nbsp;etnická příslušnost, ale ekonomické důvody.
+            </p>
+
+            <div class="galerie">
+                <div class="uk-child-width-1-5@m" uk-grid uk-lightbox="animation: slide">
+                    <div>
+                        <a class="uk-inline" href="images/vukovar/01.jpg" data-caption="Dunaj ve&nbsp;Vukovaru tvoří přirozenou hranici mezi Chorvatskem a&nbsp;Srbskem. (Karolína Bukovská)">
+                            <img src="images/vukovar/01th.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="images/vukovar/02.jpg" data-caption="Centrum města bylo po&nbsp;válce znovu postaveno. (Karolína Bukovská)">
+                            <img src="images/vukovar/02th.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="images/vukovar/03.jpg" data-caption="Kříž na&nbsp;nábřeží je&nbsp;věnován obětem války za&nbsp;nezávislost. (Karolína Bukovská)">
+                            <img src="images/vukovar/03th.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="images/vukovar/04.jpg" data-caption="Část polorozpadlého nádraží. (Karolína Bukovská)">
+                            <img src="images/vukovar/04th.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="images/vukovar/05.jpg" data-caption="Opuštěná funkcionalistická továrna firmy Baťa na&nbsp;předměstí Vukovaru. (Karolína Bukovská)">
+                            <img src="images/vukovar/05th.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="images/vukovar/06.jpg" data-caption="Pohled na&nbsp;Vukovar a&nbsp;vodárenskou věž z&nbsp;ostrova na&nbsp;Dunaji, který&nbsp;náleží Chorvatsku. (Karolína Bukovská)">
+                            <img src="images/vukovar/06th.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <h2>K čemu toto místo slouží?</h2>
+            <p>Vukovar rozhodně nepatří mezi nejvyhledávanější turistické cíle v&nbsp;Chorvatsku. Přesto se&nbsp;na&nbsp;hlavní městské promenádě nachází nespočet stánků se&nbsp;suvenýry. Motivy upomínkových předmětů  prozrazují, na&nbsp;čem turismus ve&nbsp;Vukovaru stojí. Trička, šály, magnety, svíčky a&nbsp;mnohé další dekorativní předměty nesou motivy vukovarské vodárenské věže, jež se&nbsp;stala symbolem dobytí města v&nbsp;roce 1991. Zdá se, že&nbsp;kýč může být cesta, jak si vydělat peníze, ale také jak se&nbsp;vyrovnat s&nbsp;místní traumatickou minulostí. Pravidelnými návštěvníky Vukovaru a&nbsp;potenciálními zákazníky těchto prodejen jsou především chorvatští školáci. Návštěva města na&nbsp;Dunaji a&nbsp;dějiště nedávného chorvatského traumatu je&nbsp;totiž jakožto součást školních osnov povinná.</p>
+
+            <div class="galerie">
+                <div class="uk-child-width-1-5@m" uk-grid uk-lightbox="animation: slide">
+                    <div>
+                        <a class="uk-inline" href="images/vukovar/07.jpg" data-caption="Motiv vukovarské vodárenské věže se&nbsp;objevuje na&nbsp;většině suvenýrů. (Karolína Bukovská)">
+                            <img src="images/vukovar/07th.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="images/vukovar/08.jpg" data-caption="Motiv vukovarské vodárenské věže se&nbsp;objevuje na&nbsp;většině suvenýrů. (Karolína Bukovská)">
+                            <img src="images/vukovar/08th.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="images/vukovar/09.jpg" data-caption="Motiv vukovarské vodárenské věže se&nbsp;objevuje na&nbsp;většině suvenýrů. (Karolína Bukovská)">
+                            <img src="images/vukovar/09th.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="images/vukovar/10.jpg" data-caption="Motiv vukovarské vodárenské věže se&nbsp;objevuje na&nbsp;většině suvenýrů. (Karolína Bukovská)">
+                            <img src="images/vukovar/10th.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="images/vukovar/11.jpg" data-caption="Motiv vukovarské vodárenské věže se&nbsp;objevuje na&nbsp;většině suvenýrů. (Karolína Bukovská)">
+                            <img src="images/vukovar/11th.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="images/vukovar/12.jpg" data-caption="Motiv vukovarské vodárenské věže se&nbsp;objevuje na&nbsp;většině suvenýrů. (Karolína Bukovská)">
+                            <img src="images/vukovar/12th.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="images/vukovar/13.jpg" data-caption="Motiv vukovarské vodárenské věže se&nbsp;objevuje na&nbsp;většině suvenýrů. (Karolína Bukovská)">
+                            <img src="images/vukovar/13th.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="images/vukovar/14.jpg" data-caption="Motiv vukovarské vodárenské věže se&nbsp;objevuje na&nbsp;většině suvenýrů. (Karolína Bukovská)">
+                            <img src="images/vukovar/14th.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Na&nbsp;co&nbsp;se&nbsp;tu (ne)vzpomíná?</h2>
+            <p>Bitvu o&nbsp;Vukovar nepřipomínají pouze turistické stánky na&nbsp;hlavní ulici, ale také celá jedná místnost v&nbsp;městském muzeu. V&nbsp;ní se&nbsp;nachází autentické trosky z&nbsp;vybombardovaného města. Na&nbsp;stěnu jsou přitom promítány letecké záběry Vukovaru z&nbsp;roku 1991 a&nbsp;ze&nbsp;současnosti. Hlavním, a&nbsp;poněkud zvláštním místem paměti je&nbsp;však expozice ve&nbsp;vukovarské nemocnici, která&nbsp;je&nbsp;muzeem a&nbsp;památníkem zároveň. Výstava a&nbsp;její instalace působí především emocionálně-afektivně, nevysvětluje příčiny etnického konfliktu a&nbsp;vytváří představu jakéhosi nepochopitelného archetypálního zla. Zlo v tomto podání není něco, co&nbsp;se&nbsp;člověk rozhodně dělat, ale co&nbsp;v něm esenciálně je. Narativ vytváří jasné rozdělení mezi „námi“ a&nbsp;„jimi“, což&nbsp;ostatně autoritativně potvrzuje i&nbsp;průvodkyně v&nbsp;městském muzeu: „The Croats were the good guys, the Serbs were the bad guys.“ („Chorvati byli&nbsp;ti dobří, Srbové&nbsp;ti zlí.“) Traumatická minulost se&nbsp;v&nbsp;tomto případě nestává místem k&nbsp;reflexi, ale k&nbsp;budování národního mýtu, na&nbsp;němž stojí politická legitimita současného chorvatského státu. Z&nbsp;obětí se stávají hrdinové. </p>
+
+            <div class="galerie">
+                <div class="uk-child-width-1-5@m" uk-grid uk-lightbox="animation: slide">
+                    <div>
+                        <a class="uk-inline" href="images/vukovar/15.jpg" data-caption="V expozici městského muzea jsou vystaveny trosky z vybombardovaného Vukovaru. (Karolína Bukovská)">
+                            <img src="images/vukovar/15th.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="images/vukovar/16.jpg" data-caption="V expozici městského muzea jsou vystaveny trosky z vybombardovaného Vukovaru. (Karolína Bukovská)">
+                            <img src="images/vukovar/16th.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="images/vukovar/17.jpg" data-caption="Videoprojekce v městském muzeu ukazuje letecké záběry Vukovaru z roku 1991 a současnosti. (Karolína Bukovská)">
+                            <img src="images/vukovar/17th.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="images/vukovar/18.jpg" data-caption="Expozice ve vukovarské nemocnici. (Martin Babička)">
+                            <img src="images/vukovar/18th.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="images/vukovar/19.jpg" data-caption="Expozice ve vukovarské nemocnici. (Martin Babička)">
+                            <img src="images/vukovar/19th.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="images/vukovar/20.jpg" data-caption="Expozice ve vukovarské nemocnici. (Martin Babička)">
+                            <img src="images/vukovar/20th.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+            </footer>
+        </div>
+
+        <script>
+	        var mymap = L.map('mapid').setView([45.350278, 19.004722],12);
+            
+
+            var marker2 = L.marker([45.350278, 19.004722]).addTo(mymap);
+
+
+            L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+                tileSize: 512,
+                maxZoom: 18,
+                zoomOffset: -1,
+                attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+                    '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+                    'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                id: 'mapbox/streets-v11',
+                accessToken: 'pk.eyJ1IjoibWFydGludXN2YW51cyIsImEiOiJjaWs4aDFzbDcwMDFqdzNrb3plNHJoZ3F2In0.yPRyLafZLoDiq_jV4lM-cg'
+            }).addTo(mymap);
+        </script>
+
+    </body>
+
+
+</html>

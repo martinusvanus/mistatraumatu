@@ -1,0 +1,161 @@
+<!doctype html>
+
+<html lang="cs">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-J08XMPDV29"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-J08XMPDV29');
+        </script>
+
+        <title>Chorvatská místa traumatu</title>
+
+        <meta name="description" content="">
+        <meta name="author" content="Martin Váňa">
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--Leaflet-->
+        <link rel="stylesheet" href="leaflet/leaflet.css">
+        <script src="leaflet/leaflet.js"></script>
+
+        <!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.17/css/uikit.min.css" />
+
+        <!-- UIkit JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.17/js/uikit.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.17/js/uikit-icons.min.js"></script>
+
+        <link rel="stylesheet" href="css/css.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+
+    </head>
+
+    <body>
+        <div class="uk-container">
+
+            <header>
+                <a href="index.html"><img id="logo" src="images/erb.png"></a>
+                <h1 class="uk-heading-primary">Jasenovac</h1>
+                <a href="jasenovacENG.html"><span class="uk-align-right" style="padding-top:15px"><u>CZ</u>/ENG</span></a>
+                <a href="index.html"><span uk-icon="icon: triangle-left; ratio: 3" id="back" class="uk-align-right"></span></a>
+            </header>
+
+            <div id="mapid">
+            </div>
+
+            <h2>Co&nbsp;se&nbsp;na&nbsp;tomto místě stalo?</h2>
+            <p>V prostorách koncentračního tábora Jasenovac bylo pod&nbsp;správou ustašovského Nezávislého chorvatského státu brutálně připraveno o&nbsp;život více než 83 000 lidí. Jen&nbsp;do&nbsp;roku 2013 bylo napočítáno 47 627 zavražděných Srbů, 16 173 Romů, 13 116 Židů, 4 255 Chorvatů, 1 128 muslimů, 266 Slovinců, 114 Čechů, 106 Slováků a&nbsp;205 obětí jiných národností. Tábor osvobodily v&nbsp;dubnu 1945 partyzánské jednotky. Měsíce před&nbsp;osvobozením však probíhala intenzivní řízená likvidace vězeňské populace, a&nbsp;tudíž již nebylo koho zachránit. Tábor byl&nbsp;částečně zničen již za&nbsp;války samotnými ustašovci. Do&nbsp;dnešního dne se&nbsp;dochovalo pouze několik odlehlých budov, které&nbsp;byly součástí táborového komplexu. Trosky zbylých staveb, které&nbsp;stály na&nbsp;místě dnešního památníku, byly po&nbsp;válce rozebrány a&nbsp;využity při&nbsp;opravě poničených domů.</p>
+
+            <h2>Jak toto místo vypadá dnes?</h2>
+            <p>Na&nbsp;místě bývalého komplexu koncentračního tábora, konkrétně lágru č. 3 přezdívaného „cihelna“, je&nbsp;dnes k&nbsp;nalezení pomník „Kamenný květ“ od&nbsp;sochaře Bogdana Bogdanoviće. Betonová socha byla postavena roku 1966 jako součást památníku obětem. Květ nemá připomínat zabíjení a&nbsp;umírání, ke&nbsp;kterému zde za&nbsp;Nezávislého chorvatského státu docházelo, ale jejich opak – život a&nbsp;znovuzrození. Prostranství památníku tvoří kromě betonového Květu také dvě přilehlá jezírka. Ta&nbsp;jsou od&nbsp;sebe oddělena cestou, která&nbsp;je&nbsp;vyložena dřevěnými železničními pražci, po&nbsp;nichž byli do&nbsp;Jasenovace přiváženi vězni. Místa, na&nbsp;nichž se&nbsp;kdysi nacházely jednotlivé budovy tábora, jsou v&nbsp;krajině vyznačeny prohlubněmi. Tam, kde&nbsp;docházelo k&nbsp;mučení a&nbsp;vraždění vězňů, jsou dnes uměle vytvořené  kopečky. 
+            <br>Památník byl&nbsp;v&nbsp;Jasenovaci založen roku 1963 a&nbsp;o&nbsp;pět let později bylo otevřeno muzeum. Jeho současná expozice pochází z&nbsp;roku 2006. Muzejní výstava je&nbsp;rozdělena na&nbsp;část věnovanou obětem a&nbsp;část, která&nbsp;se&nbsp;zabývá pachateli. V&nbsp;první jmenované části najdeme dochované osobní předměty a&nbsp;seznamy jmen obětí. V&nbsp;druhé části jsou vystavena například ustašovská nařízení proti Srbům, Romům a&nbsp;Židům či&nbsp;nástroje, jimiž byli vězni v&nbsp;táboře usmrcováni. </p>
+
+            <div class="galerie">
+                <div class="uk-child-width-1-5@m" uk-grid uk-lightbox="animation: slide">
+                    <div>
+                        <a class="uk-inline" href="images/jasenovac/01.jpg" data-caption="Betonová socha Bogdana Bogdanoviće symbolizuje život a&nbsp;znovuzrození. (Karolína Bukovská)">
+                            <img src="images/jasenovac/01th.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="images/jasenovac/02.jpg" data-caption="Betonová socha Bogdana Bogdanoviće symbolizuje život a&nbsp;znovuzrození. (Karolína Bukovská)">
+                            <img src="images/jasenovac/02th.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="images/jasenovac/03.jpg" data-caption="Uměle vytvořené prohlubně vyznačují jednotlivé budovy bývalého tábora. Kopečky zvýraňují místa, na&nbsp;nichž docházelo k&nbsp;násilí, například popraviště. (Karolína Bukovská)">
+                            <img src="images/jasenovac/03th.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="images/jasenovac/04.jpg" data-caption="Bývalé vězně v&nbsp;muzeu připomínají jejich osobní předměty. (Karolína Bukovská)">
+                            <img src="images/jasenovac/04th.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="images/jasenovac/05.jpg" data-caption="V muzeu jsou na&nbsp;skleněných deskách vyobrazena jména dosud identifikovaných obětí. (Karolína Bukovská)">
+                            <img src="images/jasenovac/05th.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="images/jasenovac/06.jpg" data-caption="V části věnované pachatelům jsou vystaveny nástroje, jimiž byli vězni usmrcováni. (Karolína Bukovská)">
+                            <img src="images/jasenovac/06th.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <h2>K čemu toto místo slouží?</h2>
+            <p>Památník a&nbsp;muzeum mají za&nbsp;cíl připomínat události, ke&nbsp;kterým zde došlo za&nbsp;druhé světové války. Součastí areálu je&nbsp;i&nbsp;vzdělávací centrum s&nbsp;nabídkou různých programů pro&nbsp;školy. Návštěva Jasenovace však není povinnou součástí školních osnov a&nbsp;většinou vychází z&nbsp;vlastní iniciativy jednotlivých vyučujících. Za&nbsp;poslední rok tak&nbsp;toto místo navštívilo 12 školních zájezdů. Dalo by&nbsp;se&nbsp;říci, že&nbsp;ve&nbsp;srovnání s&nbsp;ostatními chorvatskými místy paměti je&nbsp;Jasenovaci věnovována neúměrně malá pozornost. Tento fakt může být chápán jako důsledek politických kontroverzí s&nbsp;etnickým a&nbsp;rasistickým podtextem, které&nbsp;se&nbsp;v&nbsp;prostoru bývalé Jugoslávie odehrávají. V&nbsp;prostoru památníku se&nbsp;také odehrávají pietní akty, jichž se&nbsp;účastní pozůstalí obětí i&nbsp;političtí představitelé. </p>
+
+            <div class="galerie">
+                <div class="uk-child-width-1-5@m" uk-grid uk-lightbox="animation: slide">
+                    <div>
+                        <a class="uk-inline" href="images/jasenovac/07.jpg" data-caption="Areál bývalého koncentračního tábora tvoří pietní prostranství s&nbsp;pomníkem Kamenného květu a&nbsp;muzeum se&nbsp;vzdělávacím centrem. (Karolína Bukovská)">
+                            <img src="images/jasenovac/07th.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="images/jasenovac/08.jpg" data-caption="Budova muzea a&nbsp;vzdělávacího centra. (Karolína Bukovská)">
+                            <img src="images/jasenovac/08th.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="images/jasenovac/09.jpg" data-caption="Jasenovac není příliš navštěvovaným místem. (Karolína Bukovská)">
+                            <img src="images/jasenovac/09th.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Na&nbsp;co&nbsp;se&nbsp;tu (ne)vzpomíná?</h2>
+            <p>Jádrem kontroverzí okolo Jasenovace je&nbsp;fakt, že&nbsp;historické narativy s&nbsp;ním spjaté jsou již dlouhodobě využívány jako politická agitace různých aktérů v&nbsp;rámci post-jugoslávského prostoru. Památník s&nbsp;proti-nacionalistickým charakterem byl&nbsp;zhotoven během socialistického režimu Josipa Broze Tita. Ten se&nbsp;sice po&nbsp;roztržce se&nbsp;Stalinem roku 1948 vymanil ze&nbsp;sovětské sféry vlivu, v&nbsp;souvislosti s&nbsp;jeho vládou však nelze mluvit o&nbsp;demokratických podmínkách či&nbsp;dodržování lidských práv. Jasenovac samotný se&nbsp;pro&nbsp;mnohé Srby, Romy a&nbsp;Židy regionu dodnes zdá být symbolem chorvatského historického revisionismu a&nbsp;relativizace rasismu a&nbsp;xenofobie, z&nbsp;nichž násilnosti vyústily. Takto byl&nbsp;jeho obraz využíván i&nbsp;za&nbsp;doby válek v&nbsp;devadesátých letech, coby poukaz na&nbsp;národně-nacionalistické směřování vlády Franjo Tuđmana a&nbsp;srovnávání nově samostatného Chorvatska s&nbsp;válečným Nezávislým chorvatským státem. Dnes jsou hlavními body kontroverzí pře o&nbsp;počty obětí, charakter koncentračního tábora a&nbsp;životních podmínek vězňů a&nbsp;také otázka, zda byl&nbsp;tábor po&nbsp;osvobození využíván Titovým režimem jako vězení pro&nbsp;politické vězně. Jak chorvatská vláda, tak&nbsp;zástupci židovské obce a&nbsp;srbské pravoslavné církve sice oběti každoročně veřejně uctívají, pietní akty však probíhají odděleně.</p>
+
+            <div class="galerie">
+                <div class="uk-child-width-1-5@m" uk-grid uk-lightbox="animation: slide">
+                    <div>
+                        <a class="uk-inline" href="images/jasenovac/10.jpg" data-caption="Pietní místo uprostřed Kamenného květu s úryvkem z protiválečné básně Ivana Gorana Kovačiće. (Karolína Bukovská)">
+                            <img src="images/jasenovac/10th.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="images/jasenovac/11.jpg" data-caption="Symbol ustašovců na zdi domu poblíž bývalého koncentračního tábora Jasenovac. (Karolína Bukovská)">
+                            <img src="images/jasenovac/11th.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+            </footer>
+        </div>
+
+        <script>
+	        var mymap = L.map('mapid').setView([45.294444, 16.827778],12);
+            
+
+            var marker2 = L.marker([45.294444, 16.827778]).addTo(mymap);
+
+
+            L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+                tileSize: 512,
+                maxZoom: 18,
+                zoomOffset: -1,
+                attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+                    '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+                    'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                id: 'mapbox/streets-v11',
+                accessToken: 'pk.eyJ1IjoibWFydGludXN2YW51cyIsImEiOiJjaWs4aDFzbDcwMDFqdzNrb3plNHJoZ3F2In0.yPRyLafZLoDiq_jV4lM-cg'
+            }).addTo(mymap);
+        </script>
+
+    </body>
+
+
+</html>
